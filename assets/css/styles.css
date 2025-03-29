@@ -201,11 +201,15 @@ iframe {
 
 .bloco-05 {
   background-color: var(--cinza);
+  width: 100%;
 }
 
 .bloco-05-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   padding: 40px;
 }
 
