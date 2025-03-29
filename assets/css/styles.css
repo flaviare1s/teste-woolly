@@ -407,7 +407,7 @@ small {
   }
 
   .logo-container {
-    width: 300px;
+    width: 200px;
   }
 
   .bloco-02 {
@@ -426,6 +426,10 @@ small {
     width: 40%;
     text-align: left;
     font-size: 22px;
+  }
+
+  .bloco-03 {
+    padding: 80px;
   }
 
   .bloco-03-content {
@@ -510,7 +514,7 @@ small {
   }
 
   .logo-container {
-    width: 300px;
+    width: 220px;
   }
 
   .bloco-02 {
@@ -529,6 +533,10 @@ small {
     width: 40%;
     text-align: left;
     font-size: 22px;
+  }
+
+  .bloco-03 {
+    padding: 100px 0;
   }
 
   .bloco-03-content {
@@ -610,7 +618,7 @@ small {
   }
 
   .logo-container {
-    width: 300px;
+    width: 250px;
   }
 
   .bloco-02 {
