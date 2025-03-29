@@ -98,6 +98,75 @@ body {
   top: 0;
 }
 
+.bloco-03 {
+  background-color: var(--azul);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloco-03-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--texto-amarelo);
+  margin-bottom: 20px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.bloco-03-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloco-03-text {
+  font-weight: 400;
+  color: white;
+  line-height: 30px;
+  text-align: center;
+}
+
+.bloco-03-text i {
+  color: var(--texto-amarelo);
+  margin-right: 10px;
+}
+
+.telefone {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bloco-03-button {
+  background-color: var(--amarelo);
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: var(--font-poppins);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloco-03-button i {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+iframe {
+  border-radius: 20px;
+  border: 2px solid black;
+  margin: 20px 40px;
+}
+
 @media (min-width: 950px) and (max-width: 1230px) {
   .banner {
     margin-bottom: 300px;
@@ -141,6 +210,37 @@ body {
     text-align: left;
     font-size: 22px;
   }
+
+  .bloco-03-content {
+    width: 70%;
+  }
+
+  .bloco-03-title {
+    font-size: 30px;
+  }
+
+  .bloco-03-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .bloco-03-text i {
+    font-size: 20px;
+  }
+
+  .telefone {
+    font-size: 25px;
+  }
+
+  .bloco-03-button {
+    font-size: 20px;
+    width: 60%;
+  }
+
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
 }
 
 @media (min-width: 1231px) {
@@ -182,5 +282,40 @@ body {
     width: 40%;
     text-align: left;
     font-size: 22px;
+  }
+
+  .bloco-03 {
+    padding: 100px 0;
+  }
+
+  .bloco-03-content {
+    width: 50%;
+  }
+
+  .bloco-03-title {
+    font-size: 30px;
+  }
+
+  .bloco-03-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .bloco-03-text i {
+    font-size: 20px;
+  }
+
+  .telefone {
+    font-size: 25px;
+  }
+
+  .bloco-03-button {
+    font-size: 20px;
+    width: 60%;
+  }
+
+   iframe {
+    width: 560px;
+    height: 315px;
   }
 }
