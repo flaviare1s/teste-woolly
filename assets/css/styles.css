@@ -191,7 +191,7 @@ iframe {
 
 .bloco-04 {
   background-color: var(--amarelo);
-  padding: 30px 50px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
