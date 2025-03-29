@@ -21,6 +21,9 @@
 </head>
   
 <body>
+    <div id="preloader" class="preloader">
+        <div class="loader"></div>
+    </div>
     <main>
 
         <section class="banner">
@@ -52,18 +55,58 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <button class="bloco-03-button">
+                <button id="scroll-btn" class="bloco-03-button">
                     <i class="fa-solid fa-arrow-right"></i>Fale conosco
                 </button>
             </div>
         </section>
 
         <section class="bloco-04">
-        
+            <div class="bloco-04-content">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
         </section>
 
         <section class="bloco-05">
-        
+            <div class="bloco-05-content">
+                <div class="bloco-05-sessao-img">
+                    <h3 class="bloco-05-title">Vestibulum <strong>fringilla</strong>, <span>odio at commodo aliquet, diam enim hendrerit diam</span></h3>
+                    <div class="img-laptop-container">
+                        <img class="img-laptop" src="./assets/images/notebook.png" alt="Laptop">
+                    </div>
+                </div>
+                <form id="form">
+                    <div class="form-group">
+                        <label for="name">Nome Completo*</label>
+                        <input type="text" id="name" name="name" required>
+                        <small class="error" id="name-error"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="cnpj">CNPJ*</label>
+                        <input type="text" id="cnpj" name="cnpj" required>
+                        <small class="error" id="cnpj-error"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail*</label>
+                        <input type="email" id="email" name="email" required>
+                        <small class="error" id="email-error"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone*</label>
+                        <input type="tel" id="phone" name="phone" required>
+                        <small class="error" id="phone-error"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="empresa">Empresa*</label>
+                        <input type="text" id="empresa" name="empresa" required>
+                        <small class="error" id="empresa-error"></small>
+                    </div>
+                    <button class="bloco-05-button" type="submit">
+                        <i class="fa-solid fa-arrow-right"></i> Entre em <strong>contato</strong>
+                    </button>
+                </form>
+            </div>
         </section>
 
         <footer class="footer">
