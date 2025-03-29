@@ -384,7 +384,7 @@ small {
     100% { transform: rotate(360deg); }
 }
 
-@media (min-width: 1000px) and (max-width: 1249px) {
+@media (min-width: 1050px) and (max-width: 1249px) {
   .banner {
     margin-bottom: 250px;
   }
