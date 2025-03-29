@@ -214,7 +214,6 @@ iframe {
   margin: auto;
   width: 100%;
   padding: 40px;
-  max-width: 800px;
 }
 
 .bloco-05-title {
@@ -263,6 +262,8 @@ iframe {
   align-items: center;
   gap: 10px;
   width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.123);
 }
 
 .form-group {
@@ -439,6 +440,10 @@ small {
     height: 315px;
   }
 
+  .bloco-04-content {
+    width: 60%;
+  }
+
   .bloco-05 {
     padding: 80px;
   }
@@ -536,6 +541,14 @@ small {
   iframe {
     width: 560px;
     height: 315px;
+  }
+
+  .bloco-04-content {
+    width: 60%;
+  }
+
+  .bloco-04 i {
+    font-size: 44px;
   }
 
   .bloco-05 {
