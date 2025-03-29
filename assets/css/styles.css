@@ -225,7 +225,8 @@ iframe {
 }
 
 .bloco-05-title span {
-  color: black;
+  color: #59595b;
+  font-weight: bold;
 }
 
 .bloco-05-sessao-img {
@@ -550,7 +551,7 @@ small {
   }
 
   .bloco-05-sessao-img {
-    width: 50%;
+    width: 60%;
   }
 
   #form {
