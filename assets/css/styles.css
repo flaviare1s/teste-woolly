@@ -317,6 +317,15 @@ small {
   display: inline-block;
 }
 
+.footer {
+  background-color: white;
+  color: gray;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 .preloader {
     position: fixed;
     top: 0;
