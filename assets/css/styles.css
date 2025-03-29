@@ -162,7 +162,7 @@ main {
   border-radius: 10px;
   border: 2px solid black;
   font-weight: 600;
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
   cursor: pointer;
   font-family: var(--font-poppins);
